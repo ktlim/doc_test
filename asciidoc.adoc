@@ -1,0 +1,8 @@
+Heading
+-------
+Here we go again with another format.
+
+[[foo]]
+=== Math Test ===
+Can we insert equations this time? latexmath:[$R_x = 10.0 \times \sin(R_\phi)$]
+Nope.
