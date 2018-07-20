@@ -30,6 +30,7 @@ corresponding to those authors and the dates of their commits.
 """
 
 
+import collections
 import os
 import re
 import subprocess
@@ -186,7 +187,7 @@ if __name__ == "__main__":
                 if m:
                     insignificant_list.append(m.group(1))
 
-    copyrights = dict()
+    copyrights = collections.defaultdict(set)
 
     for line in log.split("\n"):
         # One pretty-formatted line per commit.
@@ -208,10 +209,7 @@ if __name__ == "__main__":
                         int(m.group(2)) >= THRESHOLD):
                     if commit_hash not in insignificant_list:
                         institution = find_institution(email, year, month)
-                        if institution not in copyrights:
-                            copyrights[institution] = set([year])
-                        else:
-                            copyrights[institution].add(year)
+                        copyrights[institution].add(year)
 
     for institution in copyrights:
         print("Copyright {} {}".format(
