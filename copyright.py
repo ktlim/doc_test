@@ -46,6 +46,7 @@ INSTITUTIONS = {
         "The Board of Trustees of the Leland Stanford Junior "
             "University, through SLAC National Accelerator Laboratory":
             ["slac.stanford.edu", "vaikunth@tamu.edu",
+                "jgates@slac.standford.edu", # !!!
                 "fabrice.jammes@in2p3.fr",
                 "fabrice.jammes@clermont.in2p3.fr",
                 "aaoualid@gmail.com", "abh@stanford.edu", "astro@mandeep.org"],
