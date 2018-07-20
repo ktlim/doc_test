@@ -37,18 +37,38 @@ import sys
 
 INSTITUTIONS = {
         "Association of Universities for Research in Astronomy":
-            ["noao.edu", "lsst.org"],
+            ["noao.edu", "lsst.org", "LSST.org", "simon.krughoff@gmail.com",
+                "wmwv@pitt.edu", "josh@hoblitt.com", "tim.jenness@gmail.com",
+                "womullan@sciops.esa.int", "jonathansick@mac.com",
+                "jmatt@jmatt.org", "athornton@gmail.com"],
         "California Institute of Technology":
             ["caltech.edu"],
         "The Board of Trustees of the Leland Stanford Junior "
             "University, through SLAC National Accelerator Laboratory":
-            ["slac.stanford.edu"],
+            ["slac.stanford.edu", "vaikunth@tamu.edu",
+                "fabrice.jammes@in2p3.fr",
+                "fabrice.jammes@clermont.in2p3.fr",
+                "edernach@clermont.in2p3.fr",
+                "medernac@clermont.in2p3.fr",
+                "qserv@clrlsstsrv01.in2p3.fr",
+                "qserv@clrlsst-dbwkr1-vm.in2p3.fr",
+                "qserv@clrlsst-dbwkr2.in2p3.fr",
+                "jgates@slac.standford.edu", # !!!
+                "aaoualid@gmail.com", "abh@stanford.edu", "astro@mandeep.org"],
+        "The Regents of the University of California":
+            ["ucdavis.edu",
+                "pgee@physics.ucdavis.com", # !!!
+                "pgee@pgeepc2.gateway.2wire.net"],
         "The Trustees of Princeton University":
-            ["princeton.edu", "vishal.kasliwal@gmail.com"],
+            ["princeton.edu", "rearmstr@gmail.com",
+                "vishal.kasliwal@gmail.com", "merlin.fisherlevine@gmail.com",
+                "jmeyers314@gmail.com"],
         "University of Washington":
-            ["uw.edu", "ianssullivan@gmail.com"],
+            ["uw.edu", "washington.edu", "ctslater@umich.edu",
+                "ianssullivan@gmail.com", "scott.f.daniel@gmail.com",
+                "John.Parejko@alumni.carleton.edu"],
         "University of Illinois Champaign-Urbana":
-            ["illinois.edu"],
+            ["illinois.edu", "daues@users.noreply.github.com"],
         "University of Tokyo":
             ["steven.bickerton@gmail.com"]
 }
