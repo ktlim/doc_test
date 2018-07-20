@@ -150,16 +150,14 @@ def stringify_year_set(years):
         Formatted year range list.
     """
     year_list = sorted(years)
-    min_year = year_list[0]
-    max_year = year_list[0]
+    min_year = max_year = year_list[0]
     year_ranges = []
     for year in year_list[1:]:
         if year == max_year + 1:
             max_year = year
         else:
             year_ranges.append(format_year_range(min_year, max_year))
-            min_year = year
-            max_year = year
+            min_year = max_year = year
     year_ranges.append(format_year_range(min_year, max_year))
     return ", ".join(year_ranges)
 
