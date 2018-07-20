@@ -48,12 +48,6 @@ INSTITUTIONS = {
             ["slac.stanford.edu", "vaikunth@tamu.edu",
                 "fabrice.jammes@in2p3.fr",
                 "fabrice.jammes@clermont.in2p3.fr",
-                "edernach@clermont.in2p3.fr",
-                "medernac@clermont.in2p3.fr",
-                "qserv@clrlsstsrv01.in2p3.fr",
-                "qserv@clrlsst-dbwkr1-vm.in2p3.fr",
-                "qserv@clrlsst-dbwkr2.in2p3.fr",
-                "jgates@slac.standford.edu", # !!!
                 "aaoualid@gmail.com", "abh@stanford.edu", "astro@mandeep.org"],
         "The Regents of the University of California":
             ["ucdavis.edu",
@@ -64,13 +58,13 @@ INSTITUTIONS = {
                 "vishal.kasliwal@gmail.com", "merlin.fisherlevine@gmail.com",
                 "jmeyers314@gmail.com"],
         "The University of Tokyo":
-            ["steven.bickerton@gmail.com"]
+            ["steven.bickerton@gmail.com"],
         "University of Illinois Board of Trustees":
             ["illinois.edu", "daues@users.noreply.github.com"],
         "University of Washington":
             ["uw.edu", "washington.edu", "ctslater@umich.edu",
                 "ianssullivan@gmail.com", "scott.f.daniel@gmail.com",
-                "John.Parejko@alumni.carleton.edu"],
+                "John.Parejko@alumni.carleton.edu"]
 }
 """Dictionary of institutions claiming copyright.
 
