@@ -63,14 +63,14 @@ INSTITUTIONS = {
             ["princeton.edu", "rearmstr@gmail.com",
                 "vishal.kasliwal@gmail.com", "merlin.fisherlevine@gmail.com",
                 "jmeyers314@gmail.com"],
+        "The University of Tokyo":
+            ["steven.bickerton@gmail.com"]
+        "University of Illinois Board of Trustees":
+            ["illinois.edu", "daues@users.noreply.github.com"],
         "University of Washington":
             ["uw.edu", "washington.edu", "ctslater@umich.edu",
                 "ianssullivan@gmail.com", "scott.f.daniel@gmail.com",
                 "John.Parejko@alumni.carleton.edu"],
-        "University of Illinois Champaign-Urbana":
-            ["illinois.edu", "daues@users.noreply.github.com"],
-        "University of Tokyo":
-            ["steven.bickerton@gmail.com"]
 }
 """Dictionary of institutions claiming copyright.
 
